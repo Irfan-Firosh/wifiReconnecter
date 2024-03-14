@@ -1,2 +1,2 @@
 # wifiReconnecter
-A Simple Python Script to reconnect to wifi when it disconnects
+This Python script monitors WiFi connectivity, attempting to reconnect automatically if the connection is lost. It checks connectivity to "http://www.google.com" every minute and, if necessary, connects to the specified WiFi network. Admin privileges are required for network operations. Use the script by replacing "YOUR WIFI SSID" with your network's SSID and running it with Python 3.x after installing the necessary libraries (requests and pyuac).
